@@ -64,4 +64,4 @@ class GameOver:
                 if restart_rect.collidepoint(mouse_pos):
                     pygame.mouse.set_cursor(pygame.SYSTEM_CURSOR_ARROW)
                     return 'restart'
-        return None
+        return None 
